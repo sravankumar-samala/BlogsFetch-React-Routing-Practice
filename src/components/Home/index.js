@@ -3,11 +3,9 @@ import BlogList from '../BlogList'
 import './index.css'
 
 const Home = () => (
-  <div className="home-container" data-testid="loader">
+  <div className="home-container">
     <UserInfo />
-    <div className="blog-list-container">
-      <BlogList />
-    </div>
+    <BlogList />
   </div>
 )
 

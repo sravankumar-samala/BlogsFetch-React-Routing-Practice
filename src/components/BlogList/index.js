@@ -37,7 +37,9 @@ class BlogList extends Component {
     return (
       <ul className="blog-list-container">
         {blogsList.length === 0 ? (
-          <Loader type="TailSpin" color="#00BFFF" height={50} width={50} />
+          <div data-testid="loader">
+            <Loader type="TailSpin" color="#00bfff" height={50} width={50} />
+          </div>
         ) : (
           blogsList.map(eachObject => (
             <BlogItem key={eachObject.id} blogObject={eachObject} />

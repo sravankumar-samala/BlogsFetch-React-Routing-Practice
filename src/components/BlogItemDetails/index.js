@@ -43,7 +43,9 @@ class BlogItemDetails extends Component {
     return (
       <>
         {Object.keys(blogDetails).length === 0 ? (
-          <Loader type="TailSpin" color="#00BFFF" height={50} width={50} />
+          <div data-testid="loader">
+            <Loader type="TailSpin" color="#00bfff" height={50} width={50} />
+          </div>
         ) : (
           <div className="blog-info">
             <h2 className="blog-details-title">{title}</h2>

@@ -7,7 +7,6 @@
   border: 3px solid #8e8e8e91;
   padding: 1em;
   border-radius: 15px;
-  margin-inline: 2em;
 }
 .blog-image {
   max-width: 300px;
@@ -26,8 +25,8 @@
   gap: 1em;
 }
 .author-details img {
-  width: 25px;
-  height: 25px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
 }
 
